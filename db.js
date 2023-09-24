@@ -1,9 +1,10 @@
 const mysql = require('mysql2');
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '123456789',
-    database: 'quizapp',
+    host: 'sql12.freesqldatabase.com',
+    user: 'sql12648758',
+    password: 'Buh8lZhpuX',
+    database: 'sql12648758',
+    port: 3306
 });
 pool.getConnection((err, connection) => {
     if (err) {
